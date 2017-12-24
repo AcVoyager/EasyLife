@@ -90,7 +90,7 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".SettingsActivity"
-            android:label="@string/"Settings"
+            android:label="Settings"
             android:theme="@style/AppTheme" />
 
         <meta-data
