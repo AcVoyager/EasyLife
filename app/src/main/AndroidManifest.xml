@@ -77,12 +77,20 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".DemoStyleThemeActivity"
+            android:label="Theme"
+            android:theme="@style/AppTheme"
+            >
+
+        </activity>
+
         <activity
             android:name=".AboutUs"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".SettingsActivity"
-            android:label="@string/title_activity_settings"
+            android:label="@string/"Settings"
             android:theme="@style/AppTheme" />
 
         <meta-data
@@ -92,7 +100,6 @@
             android:name=".Travel"
             android:label="@string/title_activity_travel"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-
         <activity
             android:name=".StatisticActivity"
             android:theme="@style/AppTheme" />
