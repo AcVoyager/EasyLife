@@ -59,8 +59,10 @@ public class MainActivity extends BaseActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {//fab部分的监听器
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();//点击之后下方出现的提示栏
+//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                        .setAction("Action", null).show();//点击之后下方出现的提示栏
+                Intent intent = new Intent(MainActivity.this, Note.class);
+                startActivity(intent);
             }
         });
 
